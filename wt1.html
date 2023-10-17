@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Include Font Awesome CSS -->
+    <style>
+        body {
+            margin-left: 20px;
+            background-color: #e2c48500;
+        }
+
+        /* Custom CSS for orange navbar, white icons, and white text */
+        .navbar {
+            background-color: rgba(0, 162, 255, 0.749) !important;
+            /* Change navbar background color to orange */
+        }
+
+        .navbar-nav {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .navbar-nav .nav-link,
+        .navbar-nav .nav-link i {
+            color: white !important;
+            /* Change text and icon color to white */
+        }
+
+        .profile-image {
+            float: right;
+            margin-top: 20px;
+            margin-right: 20px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+        }
+
+        /* .table tbody tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        } */
+        .table tbody tr:nth-child(even) {
+            background-color: #e6e6e6;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-graduation-cap"></i> Academics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-laptop-code"></i> Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-trophy"></i> Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <img src="harini_new.jpg" class="profile-image" width="120" height="130" alt="Profile Image">
+    <h2 style="margin-left: 20px; margin-top: 10px;">Harini Budhi</h2>
+    <p style="margin-left: 20px; margin-top: 5px;">harinibudhi@gmail.com</p>
+    <br>
+
+    <strong style="margin-left: 20px">Career Objective:</strong>
+
+    <p style="margin-left: 20px">Seeking a responsible career opportunity in the field of Computer Science where I can
+        utilize my logical and technical skills</p>
+    <h2 style="margin-left: 20px; margin-top: 20px;">Education</h2>
+    <table class="table" style="width: 80%; margin-left: 20px;">
+        <thead>
+            <tr style="background-color: #e6e6e6;">
+                <th>Course Details</th>
+                <th>Institution</th>
+                <th>University/Board</th>
+                <th>Year of Passing</th>
+                <th>CGPA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bachelor's in Technology(Computer Science)</td>
+                <td>Keshav Memorial Institute of Technology</td>
+                <td>JNTUH</td>
+                <td>2025</td>
+                <td>9.3</td>
+            </tr>
+            <tr>
+                <td>Intermediate MPC</td>
+                <td>Sri Gayatri Jr. College</td>
+                <td>TSBIE</td>
+                <td>2021</td>
+                <td>9.8</td>
+            </tr>
+            <tr>
+                <td>School of Secondary Certificate</td>
+                <td>Vardhana School</td>
+                <td>SSC</td>
+                <td>2019</td>
+                <td>9.8</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 style="margin-left: 20px; margin-top: 20px;">Tech Skills</h2>
+    <ul style="margin-left: 20px;">
+        <li><strong>Programming Languages:</strong>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C/C++</li>
+
+            </ul>
+        </li>
+        <li><strong>Databases:</strong>
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+            </ul>
+        </li>
+        <li><strong>Web Technologies:</strong>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2 style="margin-left: 20px; margin-top: 20px;">Projects</h2>
+
+    <div class="container" style="margin-left: 20px;">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Crowd Sourcing model for preparing large question banks
+                        </h5>
+                        <p class="card-text">Developed a website for Crowd Sourcing model thereby creating a large
+                            question bank. Questions can be vetted by experts
+                            before freezing. The actual question paper can be set through an automated systems</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Automatic Translation of Spoken Language to Sign Language</h5>
+                        <p class="card-text">Currently developing a Translator that accepts English Language sentences
+                            as input and converts the text to sign language, for
+                            people suffering from hearing loss.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Crop Damage Estimation using satellite images</h5>
+                        <p class="card-text">Many farmers are availing the crop insurance and benifited in case of crop
+                            damage due
+                            to natural calamaties such as floods. </p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 style="margin-left: 20px; margin-top: 20px;">Achievements</h2>
+    <ol style="margin-left: 20px;">
+        <li>Got cash prize on achieving 1st place in Code Sangram KMIT 2022 in which over 150 groups participated.
+        <li>Won multiple essay writing, elocution and handwriting competitions; Served as School Pupil Leader.</li>
+        <li> Member of Abhinaya (The drama club), KMIT</li>
+        <li>Solved over 100 problems in LeetCode and Well versed with Competitive Programming.</li>
+    </ol>
+    <h2 style="margin-left: 20px; margin-top: 20px;">Contact Me</h2>
+    <form style="margin-left: 20px;">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" style="width: 200px;" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea class="form-control" id="message" style="width: 200px;" rows="4"
+                placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    <div style="background-color: rgb(0, 162, 255, 0.749); padding: 20px;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3>Locatiob</h3>
+                    <p>Narayanguda, Hyderabad</p>
+                </div>
+                <div class="col">
+                    <h3>Around the Web</h3>
+                    <ul style="list-style: none; padding: 0;">
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>About</h3>
+                    <p>My simple resume</p>
+                    <hr style="border-top: 2px solid #fff;">
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div style="background-color: aquamarine;">
+        <center>
+            <p style="color: #888;">&copy; Harini Budhi 2023</p>
+        </center>
+    </div>
+
+
+
+
+</body>
+
+</html>
